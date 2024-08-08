@@ -6,7 +6,7 @@ import {
   Events,
   TextChannel,
 } from "discord.js";
-import envs from "../utils/env";
+import envs from "../framework/utils/env";
 import { getChatApp } from "./shared/chatApp";
 
 export async function startSalesTicketListener() {

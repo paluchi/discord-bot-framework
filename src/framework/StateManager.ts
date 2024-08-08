@@ -1,5 +1,5 @@
 import { createClient, RedisClientType } from "redis";
-import envs from "../utils/env";
+import envs from "./utils/env";
 
 interface Insight {
   [key: string]: any;

@@ -1,7 +1,7 @@
 import { Request, Response, Next } from "../framework/types";
 import { getChatApp } from "./shared/chatApp";
 import { startSalesTicketListener } from "./salesTicketListener";
-import envs from "../utils/env";
+import envs from "../framework/utils/env";
 
 async function main() {
   try {
